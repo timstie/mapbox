@@ -41,3 +41,7 @@ section:last-child {
 h3 {
     font-family: maiden;
 }
+
+footer {
+    padding-top: 150px;
+}
