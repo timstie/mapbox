@@ -38,9 +38,23 @@ section:last-child {
     src: url(../fonts/maiden.ttf);
 }
 
-h3 {
-    font-family: maiden;
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BebasNeue-Regular);
 }
+
+h3 {
+    color: #fccf2b;
+    font-family: maiden;
+   -webkit-text-stroke-width: 0.1px;
+   -webkit-text-stroke-color: #015ea1;
+}
+ 
+    h1 {
+        font-family: bebas;
+    }
+    
+    
 
 footer {
     padding-top: 150px;
